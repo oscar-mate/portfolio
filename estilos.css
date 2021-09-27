@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body {
-    background-color: #fafae4;
+    background-color: #2e41a2;
+    font-family: 'Poppins', sans-serif;
+    color: white;
 }
 
 header {
@@ -10,7 +12,6 @@ header {
     top:0;
     left: 0;
     right: 0;
-    font-family: 'Poppins', sans-serif;
     background-color: #ffffff;
     color: black;
 }
@@ -38,4 +39,14 @@ h1 {
     text-align: center;
     margin-top: 25px;
     color: #ffffff;
+}
+
+#SobreMi {
+    position: absolute;
+    top: 200px;
+}
+
+#PrimeraSM,#SegundaSM {
+    width: 30%;
+    display: inline-block;
 }
