@@ -7,20 +7,58 @@ body {
     color: white;
 }
 
+
+
 header {
     position: fixed;
     top:0;
     left: 0;
     right: 0;
+    height: 5%;
     background-color: #ffffff;
     color: black;
+    z-index: 100;
+    border-bottom: solid black 3px;
 }
 
-header p {
+header>nav>div {
     display: inline-block;
+    width: 75px;
+}
+
+header>nav>div>p {
     margin-top: 7px;
     margin-left: 7px;
 }
+
+nav>div {
+    height: 5%;
+}
+
+nav>div>p {
+    margin: 0;
+}
+
+#navegador>div>p:hover {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+div>div {
+    position: absolute;
+    display: none;
+}
+
+div:hover>div {
+    display: inline-block;
+    background-color: white;
+    color: black;
+}
+
 
 #Portfolio {
     background-image: url("img/portada.jpg");
@@ -31,6 +69,7 @@ header p {
     top: 5%;
     bottom: 555px;
     width: auto;
+    border-bottom: solid black 3px;
 }
 
 h1 {
@@ -41,12 +80,24 @@ h1 {
     color: #ffffff;
 }
 
+
+
 #SobreMi {
     position: absolute;
     top: 200px;
+    display: inline-block;
 }
 
-#PrimeraSM,#SegundaSM {
+#PrimeraSM{
     width: 30%;
     display: inline-block;
+    border-radius: 60px;
+    border: solid slateblue 5px;
+    margin-top: 10px;
+}
+
+article>p {
+    position: absolute;
+    top: 25px;
+    left: 420px;
 }
