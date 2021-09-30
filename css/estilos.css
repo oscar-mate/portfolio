@@ -127,3 +127,15 @@ article>p {
     top: 25px;
     left: 420px;
 }
+
+/*---------------------------LFO---------------------------*/
+
+#LFO {
+    position: absolute;
+    top: 650px;
+}
+
+#LFO>div {
+    display: inline-block;
+    width: 33%;
+}
