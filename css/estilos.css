@@ -109,30 +109,38 @@ h1 {
 
 #SobreMi {
     position: absolute;
-    top: 200px;
+    top: 190px;
     display: inline-block;
+    width: 100%;
+}
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 0;
 }
 
 #PrimeraSM{
-    width: 30%;
-    display: inline-block;
+    position: absolute;
+    top: 35px;
+    width: 25%;
     border-radius: 60px;
     border: solid darkblue 3px;
-    margin-top: 10px;
-    margin-left: 10px;
 }
 
 article>p {
     position: absolute;
-    top: 25px;
-    left: 420px;
+    top: 80px;
+    left: 450px;
+    width: 700px;
 }
 
 /*---------------------------LFO---------------------------*/
 
 #LFO {
     position: absolute;
-    top: 650px;
+    top: 850px;
 }
 
 #LFO>div {
