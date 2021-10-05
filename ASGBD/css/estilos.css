@@ -5,7 +5,7 @@ body {
     background-color: #2e41a2;
     font-family: 'Poppins', sans-serif;
     color: white;
-    background-image: url("../img/Fondo.jpg");
+    background-image: url("../../img/Fondo.jpg");
     background-size: cover;
 }
 
@@ -86,7 +86,7 @@ div>div>div>div>p:hover {
 /*---------------------------Cabecera---------------------------*/
 
 #Portfolio {
-    background-image: url("../img/portada.jpg");
+    background-image: url("../../img/portada.jpg");
     background-size: auto;
     position: absolute;
     left: 0;
@@ -103,47 +103,4 @@ h1 {
     text-align: center;
     margin-top: 25px;
     color: #ffffff;
-}
-
-/*---------------------------Sobre Mi---------------------------*/
-
-#SobreMi {
-    position: absolute;
-    top: 190px;
-    display: inline-block;
-    width: 100%;
-}
-
-h2 {
-    font-family: 'Bebas Neue', cursive;
-    text-align: center;
-    font-size: 70px;
-    margin-top: 0;
-}
-
-#PrimeraSM{
-    position: absolute;
-    top: 35px;
-    width: 30%;
-    border-radius: 60px;
-    border: solid darkblue 3px;
-}
-
-article>p {
-    position: absolute;
-    top: 80px;
-    left: 500px;
-    width: 700px;
-}
-
-/*---------------------------LFO---------------------------*/
-
-#LFO {
-    position: absolute;
-    top: 780px;
-}
-
-#LFO>div {
-    display: inline-block;
-    width: 33%;
 }
