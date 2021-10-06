@@ -7,6 +7,7 @@ body {
     color: white;
     background-image: url("../img/Fondo.jpg");
     background-size: cover;
+    overflow-x: hidden;
 }
 
 /*---------------------------Menu---------------------------*/
@@ -141,9 +142,28 @@ article>p {
 #LFO {
     position: absolute;
     top: 780px;
+    width: 100%;
+    text-align: center;
 }
 
 #LFO>div {
     display: inline-block;
-    width: 33%;
+    width: 30%;
+    background-color: white;
+    border-radius: 60px;
+    border: solid 10px black;
+}
+
+#LFO>div>img {
+    width: 400px;
+}
+
+#LFO>div>h2 {
+    color: black;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+#LFO>div>p {
+    color: black;
 }
